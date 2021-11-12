@@ -34,6 +34,33 @@ html {
 	color: var(--white);
 }
 
+.btn {
+	height: 3.5rem;
+	width: 15rem;
+	background: transparent;
+	outline: none;
+	border: 0.2rem solid var(--light-green);
+	color: var(--light-green);
+	border-radius: 5px;
+	font-size: 2rem;
+	margin: 1rem 0;
+	cursor: pointer;
+	text-transform: uppercase;
+}
+
+.heading {
+	text-align: center;
+	font-size: 4rem;
+	color: var(--gray);
+	padding: 1rem;
+	padding-top: 7rem;
+}
+
+.heading i {
+	color: var(--dark-green);
+	font-size: 2.8rem;
+}
+
 /* **************************** Header Section ************************************* */
 header {
 	display: flex;
@@ -110,18 +137,67 @@ header .fa-bars {
 	padding: 1rem 0;
 }
 
-.btn {
-	height: 4.5rem;
-	width: 15rem;
-	background: transparent;
-	outline: none;
-	border: 0.2rem solid var(--light-green);
+/* **************************** About Section ************************************* */
+.about .row {
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+
+.about .row .image {
+	flex: 1 1 40rem;
+	padding: 2rem;
+}
+
+.about .row .image img {
+	width: 100%;
+}
+
+.about .row .content {
+	flex: 1 1 40rem;
+	padding: 2rem;
+}
+
+.about .row .content h3 {
+	font-size: 3rem;
 	color: var(--light-green);
-	border-radius: 5px;
-	font-size: 2rem;
-	margin: 1rem 0;
-	cursor: pointer;
-	text-transform: uppercase;
+}
+
+.about .row .content p {
+	font-size: 1.5rem;
+	color: var(--gray);
+}
+
+.about .box-container {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+.about .box-container .box {
+	padding: 2rem 1rem;
+	text-align: center;
+	border: 0.2rem solid var(--light-green);
+	flex: 1 1 20rem;
+	margin: 2rem;
+}
+
+.about .box-container .box i {
+	color: var(--dark-green);
+	font-size: 4rem;
+}
+
+.about .box-container .box h3 {
+	color: var(--gray);
+	font-size: 2.5rem;
+	padding: 1rem 0;
+}
+
+.about .box-container .box p {
+	color: var(--gray);
+	font-size: 1.7rem;
 }
 
 /* **************************** Media Queries ************************************* */
