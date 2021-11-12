@@ -22,7 +22,6 @@
 body {
 	font-family: "Open Sans", sans-serif;
 	text-transform: capitalize;
-	height: 3000px;
 }
 
 html {
@@ -80,6 +79,49 @@ header .fa-bars {
 	color: var(--gray);
 	cursor: pointer;
 	display: none;
+}
+
+/* **************************** Home Section ************************************* */
+.home {
+	min-height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: url(img/img1.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+.home .content {
+	text-align: center;
+	padding: 1rem;
+}
+
+.home .content h1 {
+	font-size: 7rem;
+	color: var(--dark-green);
+}
+
+.home .content p {
+	font-size: 1.8rem;
+	color: var(--gray);
+	width: 70rem;
+	padding: 1rem 0;
+}
+
+.btn {
+	height: 4.5rem;
+	width: 15rem;
+	background: transparent;
+	outline: none;
+	border: 0.2rem solid var(--light-green);
+	color: var(--light-green);
+	border-radius: 5px;
+	font-size: 2rem;
+	margin: 1rem 0;
+	cursor: pointer;
+	text-transform: uppercase;
 }
 
 /* **************************** Media Queries ************************************* */
