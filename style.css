@@ -34,6 +34,9 @@ html {
 	color: var(--white);
 }
 
+p {
+	line-height: 2.5rem;
+}
 .btn {
 	height: 3.5rem;
 	width: 15rem;
@@ -110,10 +113,11 @@ header .fa-bars {
 
 /* **************************** Home Section ************************************* */
 .home {
+	width: 100%;
 	min-height: 100vh;
 	display: flex;
-	justify-content: center;
 	align-items: center;
+	justify-content: center;
 	background: url(img/img1.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -134,10 +138,16 @@ header .fa-bars {
 	font-size: 1.8rem;
 	color: var(--gray);
 	width: 70rem;
+	text-transform: none;
 	padding: 1rem 0;
+	margin: 0 auto;
 }
 
 /* **************************** About Section ************************************* */
+.about {
+	background-color: #fcf8f2;
+}
+
 .about .row {
 	display: flex;
 	align-items: center;
@@ -177,15 +187,17 @@ header .fa-bars {
 }
 
 .about .box-container .box {
+	background-color: var(--white);
 	padding: 2rem 1rem;
 	text-align: center;
 	border: 0.2rem solid var(--light-green);
 	flex: 1 1 20rem;
 	margin: 2rem;
+	height: 20rem;
 }
 
 .about .box-container .box i {
-	color: var(--dark-green);
+	color: var(--light-green);
 	font-size: 4rem;
 }
 
@@ -198,6 +210,224 @@ header .fa-bars {
 .about .box-container .box p {
 	color: var(--gray);
 	font-size: 1.7rem;
+}
+
+/* **************************** Service Section ************************************* */
+.service {
+	background-color: #f0f0f0;
+	min-height: 80vh;
+}
+
+.service .box-container {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-wrap: wrap;
+	width: 80%;
+	height: 100%;
+	margin: 8rem auto;
+}
+
+.service .box-container .box {
+	height: 32rem;
+	flex: 1 1 25rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+	padding: 2rem 1rem;
+	text-align: center;
+	background: var(--white);
+	border: 0.2rem solid var(--light-green);
+	margin: 2rem;
+	cursor: pointer;
+	transition: all 0.3s ease-in-out;
+}
+
+.service .box-container .box i {
+	color: var(--light-green);
+	font-size: 4rem;
+	padding: 1rem 0;
+	padding: 1rem 0;
+}
+
+.service .box-container .box h3 {
+	color: var(--gray);
+	font-size: 2rem;
+}
+
+.service .box-container .box p {
+	color: #666;
+	font-size: 1.3rem;
+	padding: 1rem 0;
+}
+
+.service .box-container .box a {
+	color: var(--gray);
+	font-size: 1.7rem;
+}
+
+.service .box-container .box a:hover {
+	color: var(--dark-green);
+}
+
+.service .box-container .box:hover {
+	box-shadow: 0 0.3rem 0.5rem rgba(0, 0, 0, 0.3);
+	transform: scale(1.1);
+}
+
+/* **************************** Post Section ************************************* */
+.post {
+	min-height: 100vh;
+	background-color: #fcf8f2;
+}
+
+.post .box-container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	padding: 2rem 0;
+}
+
+.post .box-container .box {
+	width: 35rem;
+	height: 52rem;
+	box-shadow: 0 0.3rem 0.5rem rgba(0, 0, 0, 0.3);
+	margin: 2rem 4.5rem;
+	background-color: var(--white);
+}
+
+.post .box-container .box img {
+	height: 23rem;
+	width: 100%;
+	object-fit: cover;
+}
+
+.post .box-container .box .content {
+	padding: 1rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.post .box-container .box .content span {
+	font-size: 1.5rem;
+	color: #666;
+}
+
+.post .box-container .box .content span i {
+	padding: 1rem 0;
+}
+
+.post .box-container .box .content h3 {
+	font-size: 2.4rem;
+	color: var(--gray);
+	cursor: pointer;
+}
+
+.post .box-container .box .content p {
+	margin-top: 1rem;
+}
+
+.post .box-container .box .content:hover h3 {
+	text-decoration: underline;
+	color: var(--light-green);
+}
+
+/* **************************** Footer Section ************************************* */
+.footer {
+	background-color: #333;
+}
+
+.footer .box-container {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: center;
+	width: 95%;
+	margin: 0 auto;
+}
+
+.footer .box-container .box {
+	margin: 2rem;
+	flex: 1 1 25rem;
+}
+
+.footer .box-container .box .logo {
+	font-size: 3rem;
+	color: var(--light-green);
+}
+
+.footer .box-container .box p {
+	font-size: 1.7rem;
+	color: #ccc;
+	padding: 1rem;
+}
+
+.footer .box-container .box .share {
+	text-align: center;
+	font-size: 3rem;
+	color: var(--white);
+}
+
+.footer .box-container .box:nth-child(2) a {
+	text-align: center;
+	font-size: 1.7rem;
+	color: var(--white);
+	padding: 0.5rem 0;
+	display: block;
+}
+
+.footer .box-container .box:nth-child(2) a:hover {
+	text-decoration: underline;
+}
+
+.footer .box-container .box .letter {
+	font-size: 3rem;
+	color: #fff;
+}
+
+.footer .box-container .box form input[type="email"] {
+	padding: 0 1rem;
+	outline: none;
+	border: 0.2rem solid var(--light-green);
+	background: none;
+	font-size: 1.7rem;
+	color: #fff;
+	height: 4rem;
+	width: 74%;
+}
+
+.footer .box-container .box form button {
+	outline: none;
+	border: none;
+	background: var(--light-green);
+	font-size: 1.9rem;
+	color: #fff;
+	height: 4rem;
+	width: 25%;
+	cursor: pointer;
+}
+
+.footer .box-container .box form button:hover {
+	color: var(--green);
+	background: none;
+	border: 0.1rem solid var(--light-green);
+}
+
+.footer .credit {
+	text-align: center;
+	color: #fff;
+	font-size: 1.5rem;
+	width: 85%;
+	margin: 0 auto;
+	padding: 2rem 1rem;
+	border-top: 0.1rem solid #ccc;
+}
+
+.footer .credit span {
+	color: var(--light-green);
 }
 
 /* **************************** Media Queries ************************************* */
@@ -244,5 +474,51 @@ header .fa-bars {
 	header .nav-toggle {
 		top: 6rem;
 		opacity: 1;
+	}
+
+	.home .content h1 {
+		font-size: 5rem;
+	}
+
+	.home .content p {
+		width: auto;
+	}
+
+	.service .box-container {
+		width: auto;
+	}
+
+	.about .box-container .box {
+		height: auto;
+	}
+
+	.service .box-container {
+		margin: 3rem 0;
+	}
+}
+
+@media screen and (max-width: 500px) {
+	.service .box-container .box {
+		height: auto;
+	}
+
+	.about .box-container .box {
+		height: 20rem;
+	}
+	.about .box-container .box p {
+		color: 0.8rem;
+	}
+
+	.post .box-container .box {
+		height: auto;
+		width: auto;
+	}
+
+	.footer .box-container .box:nth-child(1) i {
+		padding-top: 3rem;
+	}
+
+	.footer .box-container .box:nth-child(2) a {
+		margin: 2rem 0;
 	}
 }
