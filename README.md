@@ -5,7 +5,7 @@
 ![screencapture-file-F-2021-Ultimate-Software-Development-10-Projects-CSS-Landing-Pages-1-Too-Good-To-Go-index-html-2021-12-20-09_17_02](https://user-images.githubusercontent.com/57297709/146784131-cdf25af1-4b75-422f-a2b5-0c5736cde62a.png)
 
 
-Additional description about the project and its features.
+Fully responsive landing page
 
 ## Built With
 
