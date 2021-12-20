@@ -15,7 +15,7 @@ Additional description about the project and its features.
 
 ## Live Demo
 
-[Live Demo Link](https://distracted-hoover-8b5623.netlify.app/)
+[Live Demo Link](https://youthful-goldwasser-2d3cb1.netlify.app/#donate)
 
 ## Author
 
