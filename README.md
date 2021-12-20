@@ -2,6 +2,7 @@
 
 ![screencapture-file-F-2021-Ultimate-Software-Development-10-Projects-CSS-Landing-Pages-1-Too-Good-To-Go-index-html-2021-12-20-09_16_01](https://user-images.githubusercontent.com/57297709/146782318-9f8df1a4-e3b0-47cf-b41c-51e700fde730.png)
 
+![screencapture-file-F-2021-Ultimate-Software-Development-10-Projects-CSS-Landing-Pages-1-Too-Good-To-Go-index-html-2021-12-20-09_17_02](https://user-images.githubusercontent.com/57297709/146784131-cdf25af1-4b75-422f-a2b5-0c5736cde62a.png)
 
 
 Additional description about the project and its features.
@@ -35,7 +36,7 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- John Smilga Udemy Course
+- [Too Good To Go ](https://toogoodtogo.com/en-us)
 
 
 ## 📝 License
